@@ -36,7 +36,7 @@ export default function (JXT) {
         element: 'authenticate',
         topLevel: true,
         fields: {
-            value: Utils.textSub(NS.SASL2, "initial-response"),
+            value: Utils.textSub(NS.SASL2, 'initial-response'),
             mechanism: Utils.attribute('mechanism')
         }
     });
@@ -78,8 +78,8 @@ export default function (JXT) {
         element: 'success',
         topLevel: true,
         fields: {
-            value: Utils.textSub(NS.SASL2, "additional-data"),
-            authzid: Utils.textSub(NS.SASL2, "authorization-identifier")
+            value: Utils.textSub(NS.SASL2, 'additional-data'),
+            authzid: Utils.textSub(NS.SASL2, 'authorization-identifier')
         }
     });
 
