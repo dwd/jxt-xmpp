@@ -50,6 +50,7 @@ import RSM from './rsm';
 import RTP from './rtp';
 import RTT from './rtt';
 import SASL from './sasl';
+import SASL2 from './sasl2';
 import Session from './session';
 import Shim from './shim';
 import SM from './sm';
@@ -117,6 +118,7 @@ export default function (JXT) {
     JXT.use(RTP);
     JXT.use(RTT);
     JXT.use(SASL);
+    JXT.use(SASL2);
     JXT.use(Session);
     JXT.use(Shim);
     JXT.use(SM);
